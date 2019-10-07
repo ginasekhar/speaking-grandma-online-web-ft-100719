@@ -2,8 +2,10 @@
 def speak_to_grandma (phrase)
   if (phrase.upcase != phrase)
     response =  "HUH?! SPEAK UP, SONNY!"
+  elsif phrase == "I LOVE YOU GRANDMA!"
+    response = "I LOVE YOU TOO PUMPKIN!"
   else
-    response =  "HUH?! SPEAK UP, SONNY!"
+    response =  "NO, NOT SINCE 1938!"
   end
   return response
 end
